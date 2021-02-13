@@ -1,4 +1,4 @@
-let honey = 3;
+var honey = 5;
 function greet() {
   var username = document.getElementById("username").value;
   speech(username);
@@ -14,7 +14,7 @@ function displayhoney() {
 }
 
 function losthoney() {
-    honey--;
+    honey = honey - 1;
     displayhoney()
     document.getElementByClass("question").innerHTML = "Not quite... Try again";
 }
