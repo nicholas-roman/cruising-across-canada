@@ -1,5 +1,4 @@
-function greet()
-{
+function greet() {
   var username = document.getElementById("username").value;
   speech(username);
   document.getElementById("greeting").innerHTML = "Hello " + username +"! Ready to start your road trip?";
@@ -9,3 +8,8 @@ function greet()
   document.getElementById("button").style.visibility="visible";
   return false;
 }
+function losthoney(honey) {
+    honey--;
+    document.getElementById("honey").innerHTML = honey;
+}
+
