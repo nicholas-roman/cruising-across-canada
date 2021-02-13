@@ -15,9 +15,9 @@ html {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 6.2rem;
     left: -2rem;
-    padding: 13rem 0 5rem 0;
+    padding: 14rem 0 3.7rem 0;
 }
 
 .container {
@@ -25,8 +25,21 @@ h1 {
     
 }
 
+.intro {
+    font-size: 2.5rem;
+}
+
 .blurb {
-    font-size: 30px;
+    font-size: 3rem;
+}
+
+.blurb p {
+    margin: 0 17% 0 17%;
+}
+
+.pins {
+    background-image: url(resources/images/Landmark.png);
+    background-size: cover;
 }
 
 body {
@@ -36,10 +49,19 @@ footer {
     text-align: center;
 }
 
-form {
-    
+
+#name {
+    border-radius: 15px;
+    border-color: rgb(62, 136, 155);
+    border-width: 0.3rem;
+    padding: 2rem 5rem;
+    margin: 1rem;
+    text-decoration: none;
 }
 
+#ok {
+
+}
 
 @media only screen and (max-width: 1400px) {
     .header {
@@ -53,5 +75,9 @@ form {
 
     .blurb {
         font-size: 20px;
+    }
+
+    #name {
+        padding: 1rem 3rem;
     }
 }
