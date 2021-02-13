@@ -12,6 +12,6 @@ function greet() {
 function losthoney() {
     honey--;
     document.getElementById("honey").innerHTML = honey;
-    document.getElementBtId("question").innerHTML = "Not quite... Try again";
+    document.getElementByClass("question").innerHTML = "Not quite... Try again";
 }
 
