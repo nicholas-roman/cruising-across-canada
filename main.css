@@ -36,11 +36,16 @@ h1 {
 .blurb p {
     margin: 0 17% 0 17%;
     line-height: 7rem;
+    background-color: rgba(252, 235, 138, 0.151);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
 }
 
 .pins {
     background-image: url(resources/images/Landmark.png);
     background-size: cover;
+    justify-content: center;
 }
 
 body {
@@ -61,7 +66,12 @@ footer {
 }
 
 #ok {
-
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: rgb(84, 182, 182);
+    color: white;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -74,11 +84,19 @@ footer {
         padding: 10rem 0 0.6rem 0;
     }
 
+    .intro {
+        font-size: 1.7rem;
+    }
+
     .blurb {
         font-size: 20px;
     }
 
     #name {
         padding: 1rem 3rem;
+    }
+
+    .pins {
+        background-image: url(resources/images/LandmarkLaptop.png);
     }
 }
