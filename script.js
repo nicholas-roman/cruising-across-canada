@@ -1,3 +1,5 @@
+var name = document.getElementById("name").value;
+
 function displayhoney() {
     document.getElementbyId("honey").innerHTML = honey;
 }
@@ -9,7 +11,6 @@ function losthoney() {
 }
 
 function displayname() {
-    var name = document.getElementById("name").value;
     document.getElementById("name").innerHTML = name;
 }
 
