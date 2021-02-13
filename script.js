@@ -1,4 +1,4 @@
-var nameinput = document.getElementById("name").value;
+var nameinput = document.getElementById("nameinput").value;
 
 function greet() {
   document.getElementById("nameform").style.display="none";
