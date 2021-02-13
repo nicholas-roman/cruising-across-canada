@@ -89,4 +89,6 @@ footer {
 
 #greeting {
     display:inline-flex;
+    line-height: 3rem;
 }
+
