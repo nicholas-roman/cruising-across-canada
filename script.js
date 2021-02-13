@@ -9,9 +9,13 @@ function greet() {
   document.getElementById("button").style.visibility="visible";
   return false;
 }
+function displayhoney() {
+    document.getElementbyId("honey").innerHTML = honey;
+}
+
 function losthoney() {
     honey--;
-    document.getElementById("honey").innerHTML = honey;
-    document.getElementBtId("question").innerHTML = "Not quite... Try again";
+    displayhoney()
+    document.getElementByClass("question").innerHTML = "Not quite... Try again";
 }
 
