@@ -1,3 +1,10 @@
+var name = document.getElementById("name").value;
+
+function greet() {
+  document.getElementById("nameform").style.display="none";
+  return false;
+}
+
 function displayhoney() {
     document.getElementbyId("honey").innerHTML = honey;
 }
@@ -9,7 +16,6 @@ function losthoney() {
 }
 
 function displayname() {
-    var name = document.getElementById("name").value;
     document.getElementById("name").innerHTML = name;
 }
 

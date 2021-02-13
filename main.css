@@ -57,20 +57,22 @@ footer {
 
 #name {
     border-radius: 15px;
-    border-color: rgb(62, 136, 155);
+    border-color: rgb(80, 174, 197);
     border-width: 0.3rem;
     padding: 2rem 5rem;
     margin: 1rem;
     text-decoration: none;
+    outline: none;
 }
 
 #ok {
     text-decoration: none;
     font-weight: 400;
     border-radius: 10px;
-    background-color: rgb(84, 182, 182);
+    background-color: rgb(99, 186, 207);
     color: white;
     padding: 1rem;
+    outline: none;
 }
 
 @media only screen and (max-width: 1400px) {
