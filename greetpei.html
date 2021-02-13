@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html onpageshow="displayname()">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<title>Welcome to Prince Edward Island!</title>
@@ -15,12 +15,12 @@
 	<body>
 		<nav class="greetHeader" id="myHeader">
 		</nav>
-		<div class="container" onpageshow="displayname()">
+		<div class="container">
             <h1 class="inline">Hey, </h1><h1 class="inline" id="name"></h1><h1 class="inline">!</h1>
 			<h1>Welcome to Prince Edward Island!</h1>
     		<div class="blurb">
                 <p id="greeting">Home to PEI National Park, Confederation Bridge, and Anne of Green Gables.</p><br>
-                <a href="quizpei.html"><button type="button">NEXT</button></a>
+                <a href="quizpei.html"><button id = "ok" type="button">NEXT</button></a>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
         <footer>
