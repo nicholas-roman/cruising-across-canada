@@ -10,7 +10,12 @@
     </head>
 	<body>
 		<nav class="header" id="myHeader">
-    		<p>Hello</p>
+			<p></p>
+    		<form id="nameform" action="#" onsubmit="greet(); return false;">
+				<label for="name">What's your name?</label><br> 
+				<input type="text" id="name" required>
+				<input type="submit" value="OK">
+			</form>
 		</nav>
 		<div class="container">
     		<div class="blurb">
@@ -20,6 +25,5 @@
         <footer>
             
 		</footer>
-        </a>
 	</body>
 </html>
