@@ -84,7 +84,8 @@ footer {
 
 #quizbutton {
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: medium;
     border-radius: 10px;
     background-color: rgb(99, 186, 207);
     color: white;
