@@ -1,5 +1,10 @@
 var name = document.getElementById("name").value;
 
+function greet() {
+  document.getElementById("nameform").style.display="none";
+  return false;
+}
+
 function displayhoney() {
     document.getElementbyId("honey").innerHTML = honey;
 }
