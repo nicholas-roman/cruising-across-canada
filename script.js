@@ -9,7 +9,7 @@ function losthoney() {
 }
 
 function displayname() {
-    var username = document.getElementById("username").value;
-    document.getElementById("name").innerHTML = username;
+    var name = document.getElementById("name").value;
+    document.getElementById("name").innerHTML = name;
 }
 
