@@ -92,3 +92,7 @@ footer {
     line-height: 3rem;
 }
 
+.ontario{
+    background-repeat: no-repeat;
+    background-image: url(resources/images/ontario-back.jpg);
+}
