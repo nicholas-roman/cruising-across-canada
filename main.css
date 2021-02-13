@@ -47,7 +47,14 @@ h1 {
     justify-content: center;
 }
 
-body {
+button {
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: rgb(99, 186, 207);
+    color: white;
+    padding: 1rem;
+    outline: none;
 }
 
 footer {
@@ -55,7 +62,7 @@ footer {
 }
 
 
-#name {
+#nameinput {
     border-radius: 15px;
     border-color: rgb(80, 174, 197);
     border-width: 0.3rem;
