@@ -1,4 +1,4 @@
-var name = document.getElementById("name").value;
+var nameinput = document.getElementById("name").value;
 
 function greet() {
   document.getElementById("nameform").style.display="none";
@@ -16,6 +16,6 @@ function losthoney() {
 }
 
 function displayname() {
-    document.getElementById("name").innerHTML = name;
+    document.getElementById("name").innerHTML = nameinput;
 }
 
