@@ -10,18 +10,19 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
 	<body>
-		<nav class="header" id="myHeader">
-			<img src="resources/images/SharedScreenshot.jpg" alt="The Canadian Map!">
+		<nav class="nav" id="myNav">
 		</nav>
 		<div class="container">
+			<div class="header">
 			<h1>Roadtrip!</h1>
+			</div>
     		<div class="blurb">
 				<p>Welcome to the 
 				Great Canadian Roadtrip! <br>
 				It's time to get ready for the trip of a lifetime. 
 				To start, what's your name?</p>
 				<form id="nameform" action="#" onsubmit="greet(); return false;">
-					<label for="name">What's your name?</label><br> 
+					<label for="name">Your name:</label><br> 
 					<input type="text" id="name" required>
 					<input type="submit" value="OK">
 				</form>

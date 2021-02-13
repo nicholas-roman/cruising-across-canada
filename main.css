@@ -1,11 +1,35 @@
 html {
     font-family: "Poppins";
     font-weight: 400;
+    color: rgb(38, 140, 153);
+}
+
+
+.header {
+    background-image: url(resources/images/Untitled\ design.png);
+    height: 600px;
 }
 
 h1 {
+    font-size: 60px;
+}
+
+.container {
+    text-align: center;
     
 }
 
+.blurb {
+    font-size: 30px;
+}
+
 body {
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    
 }
