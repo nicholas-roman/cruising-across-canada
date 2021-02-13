@@ -82,3 +82,11 @@ footer {
         padding: 1rem 3rem;
     }
 }
+
+.inline {
+    display:inline-flex;
+}
+
+#greeting {
+    display:inline-flex;
+}
