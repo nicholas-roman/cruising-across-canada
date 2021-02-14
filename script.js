@@ -17,10 +17,10 @@ function displayhoney() {
 
 function losehoney() {
     var honey = sessionStorage.getItem("honey");
-    honey--;
+    honey = honey - 1;
     sessionStorage.setItem("honey", honey);
-    if (honey == 0) {
-        window.location.href = "fail.html";
+    if (honey <= 0) {
+        window.location = "fail.html";
     }
     else {
         window.alert("Not quite... Try again!");
