@@ -13,14 +13,14 @@ function displayhoney() {
 function losehoney() {
     var honey = sessionStorage.getItem("honey");
     sessionStorage.setItem("honey", honey);
-    if (honey == 1) {
+    honey = honey - 1;
+    if (honey == -1) {
         window.location.replace("fail.html");
     }
     else {
         window.alert("Not quite... Try again!");
         displayhoney();
     }
-    honey = honey - 1;
 }
 
 function resethoney() {
