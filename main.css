@@ -139,6 +139,7 @@ footer {
 
 .inline {
     display:inline-block;
+    font-size: large;
 }
 
 #greeting {
