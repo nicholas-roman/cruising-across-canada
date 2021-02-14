@@ -14,9 +14,8 @@ function losehoney() {
     var honey = sessionStorage.getItem("honey");
     honey = honey - 1;
     sessionStorage.setItem("honey", honey);
-    if (honey == 1) {
-        var link = "fail.html";
-        document.getElementsByClassName("wrong").href = link;
+    if (honey == 0) {
+        window.location.replace("fail.html");
     }
     else {
         window.alert("Not quite... Try again!");
