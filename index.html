@@ -13,7 +13,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="manifest" href="site.webmanifest">
 	</head>
-	<body>
+	<body onpageshow="starthoney()">
 		<nav class="nav" id="myNav">
 		</nav>
 		<div class="container2">
@@ -35,7 +35,7 @@
 			<form id="nameform" action="#">
 				<label for="nameinput">Your name:</label><br> 
 				<input type="text" id="nameinput" required>
-				<input type="submit" value="SUBMIT" id="ok">
+				<input type="submit" value="SUBMIT" id="ok" onsubmit="savename()">
 			</form>
 			<a href="greetnf.html"><button>NEXT</button></a> 
 		</div><!-- /.container -->
