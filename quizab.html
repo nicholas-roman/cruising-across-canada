@@ -18,13 +18,23 @@
         <div class="popup" onclick="wrongAnswer()">
             <span class="popuptext" id="myPopup"></span>
         </div>
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup()">&times;</div>
+              <h1>Title</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+            </div>
+          </div>
+           
+          <button onclick="togglePopup()">Show Popup</button>
 		<div class="container2">
             <h1>This city in Alberta hosts the largest indoor mall in Canada:</h1>
     		<div class="question">
-                <a href=""><button id = "quizbutton" type="button" onclick="losehoney()">Calgary</button></a>
+                <a href=""><button id = "quizbutton" type="button" onclick="wrongAnswer()">Calgary</button></a>
                 <a href="end.html"><button id = "quizbutton" type="button">Edmonton</button></a>
-                <a href=""><button id = "quizbutton" type="button" onclick="losehoney()">Medicine Hat</button></a>
-                <a href=""><button id = "quizbutton" type="button" onclick="losehoney()">Saskatoon</button></a>
+                <a href=""><button id = "quizbutton" type="button" onclick="wrongAnswer()">Medicine Hat</button></a>
+                <a href=""><button id = "quizbutton" type="button" onclick="wrongAnswer()">Saskatoon</button></a>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
         <footer>
