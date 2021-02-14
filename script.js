@@ -1,7 +1,7 @@
 storage = window.sessionStorage;
 
 function starthoney() {
-    var honey = 5;
+    var honey = 4;
     sessionStorage.setItem("honey", honey);
 }
 
@@ -14,9 +14,8 @@ function losehoney() {
     var honey = sessionStorage.getItem("honey");
     honey = honey - 1;
     sessionStorage.setItem("honey", honey);
-    if (honey == 1) {
-        var link = "fail.html";
-        document.getElementsByClassName("wrong").href = link;
+    if (honey == 0) {
+        window.location.href = "fail.html"
     }
     else {
         window.alert("Not quite... Try again!");
