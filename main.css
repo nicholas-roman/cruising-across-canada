@@ -3,6 +3,7 @@ html {
     font-weight: 400;
     color: rgb(76, 148, 167);
     font-size: 12px;
+    position: relative;
 }
 
 
@@ -13,12 +14,17 @@ html {
     justify-content: center;
     font-size: 2rem;
     text-align: center;
+    position: relative;
 }
 
 h1 {
     font-size: 6.2rem;
-    padding: 10rem 0 3.7rem 0;
+    padding: 5rem 0 3.7rem 0;
     text-align: center;
+}
+
+#head {
+    position: relative;
 }
 
 .container {
