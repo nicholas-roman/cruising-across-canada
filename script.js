@@ -10,7 +10,7 @@ function displayhoney() {
 }
 
 function losthoney() {
-    window.alert("Not quite... Try again!");
+    alert("Not quite... Try again!");
 }
 
 function displayname() {
