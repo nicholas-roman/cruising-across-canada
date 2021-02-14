@@ -1,12 +1,19 @@
 var nameinput = document.getElementById("nameinput").value;
+var honey = 5;
 
-function greet() {
-  document.getElementById("nameform").style.display="none";
-  return false;
+function displayhoney() {
+    document.getElementById("honey").innerHTML = honey;
 }
 
 function losehoney() {
-    window.alert("Not quite... Try again!");
+    honey = honey - 1;
+    if (honey == 0) {
+        window.location.href = "fail.html";
+    }
+    else {
+        window.alert("Not quite... Try again!");
+        displayhoney();
+    }
 }
 
 function displayname() {
