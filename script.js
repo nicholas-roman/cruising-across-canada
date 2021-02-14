@@ -11,7 +11,7 @@ function displayhoney() {
 
 function losthoney() {
     honey = honey - 1;
-    displayhoney()
+    displayhoney();
     document.getElementByClass("question").innerHTML = "Not quite... Try again";
 }
 
