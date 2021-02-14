@@ -14,6 +14,10 @@ function losehoney() {
     var honey = sessionStorage.getItem("honey");
     honey = honey - 1;
     sessionStorage.setItem("honey", honey);
+<<<<<<< HEAD
+    honey = honey - 1;
+=======
+>>>>>>> parent of efb9986 (Update script.js)
     if (honey == 0) {
         window.location.replace("fail.html");
     }
