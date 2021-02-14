@@ -10,7 +10,9 @@ function displayhoney() {
 }
 
 function losthoney() {
-    window.alert("Not quite... Try again!");
+    honey = honey - 1;
+    displayhoney();
+    document.getElementByClass("question").innerHTML = "Not quite... Try again";
 }
 
 function displayname() {
