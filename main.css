@@ -165,5 +165,6 @@ img {
 }
 
 .prov {
-    width:max-content;
+    width: 100%;
+    padding: 0;
 }
