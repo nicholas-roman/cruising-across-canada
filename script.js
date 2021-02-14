@@ -12,15 +12,15 @@ function displayhoney() {
 
 function losehoney() {
     var honey = sessionStorage.getItem("honey");
-    honey = honey - 1;
     sessionStorage.setItem("honey", honey);
-    if (honey == 0) {
+    if (honey == 1) {
         window.location.replace("fail.html");
     }
     else {
         window.alert("Not quite... Try again!");
         displayhoney();
     }
+    honey = honey - 1;
 }
 
 function resethoney() {
