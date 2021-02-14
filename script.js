@@ -1,17 +1,18 @@
-storage = window.localStorage;
+storage = window.sessionStorage;
 var nameinput = document.getElementById("nameinput").value;
-storage.setItem("name", nameinput);
-storage.setItem("honey", 5);
+var honey = 5;
+sessionStorage.setItem("name", nameinput);
+sessionStorage.setItem("honey", honey);
 
 function displayhoney() {
-    var honey = storage.getItem("honey");
+    var honey = sessionStorage.getItem("honey");
     document.getElementById("honey").innerHTML = honey;
 }
 
 function losehoney() {
-    var honey = storage.getItem("honey");
-    honey = honey - 1;
-    storage.setItem("honey", honey);
+    var honey = sessionStorage.getItem("honey");
+    honey--;
+    sessionStorage.setItem("honey", honey);
     if (honey == 0) {
         window.location.href = "fail.html";
     }
@@ -22,6 +23,6 @@ function losehoney() {
 }
 
 function displayname() {
-    var nameinput = storage.getItem("name");
+    var nameinput = sessionStorage.getItem("name");
     document.getElementById("name").innerHTML = nameinput;
 }
