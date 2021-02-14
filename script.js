@@ -9,7 +9,7 @@ function displayhoney() {
 }
 
 function losehoney() {
-    return false;
+    window.alert("Not quite... Try again!");
 }
 
 function resethoney() {
