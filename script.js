@@ -5,11 +5,7 @@ function greet() {
   return false;
 }
 
-function displayhoney() {
-    document.getElementbyId("honey").innerHTML = honey;
-}
-
-function losthoney() {
+function losehoney() {
     window.alert("Not quite... Try again!");
 }
 
