@@ -1,8 +1,14 @@
 storage = window.sessionStorage;
-var nameinput = document.getElementById("nameinput").value;
-var honey = 5;
-sessionStorage.setItem("name", nameinput);
-sessionStorage.setItem("honey", honey);
+
+function starthoney() {
+    var honey = 5;
+    sessionStorage.setItem("honey", honey);
+}
+
+function savename() {
+    var nameinput = document.getElementById("nameinput").value;
+    sessionStorage.setItem("name", nameinput);
+}
 
 function displayhoney() {
     var honey = sessionStorage.getItem("honey");
@@ -20,6 +26,11 @@ function losehoney() {
         window.alert("Not quite... Try again!");
         displayhoney();
     }
+}
+
+function resethoney() {
+    var honey = 0;
+    sessionStorage.setItem("honey", honey);
 }
 
 function displayname() {
