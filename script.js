@@ -1,7 +1,7 @@
 storage = window.sessionStorage;
 
 function starthoney() {
-    var honey = 5;
+    var honey = 4;
     sessionStorage.setItem("honey", honey);
 }
 
