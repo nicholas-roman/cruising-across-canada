@@ -15,8 +15,7 @@ function losehoney() {
     honey = honey - 1;
     sessionStorage.setItem("honey", honey);
     if (honey == 0) {
-        window.alert("working");
-        window.location.href = "fail.html"
+        window.location.replace("fail.html");
     }
     else {
         window.alert("Not quite... Try again!");
