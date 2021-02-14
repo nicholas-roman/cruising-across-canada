@@ -13,8 +13,8 @@ function displayhoney() {
 function losehoney() {
     var honey = sessionStorage.getItem("honey");
     sessionStorage.setItem("honey", honey);
-    honey = honey - 1;
-    if (honey == -1) {
+    honey--;
+    if (honey == 0) {
         window.location.replace("fail.html");
     }
     else {
