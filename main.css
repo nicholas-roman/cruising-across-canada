@@ -17,7 +17,7 @@ html {
 
 h1 {
     font-size: 6.2rem;
-    padding: 14rem 0 3.7rem 0;
+    padding: 10rem 0 3.7rem 0;
     text-align: center;
 }
 
@@ -139,6 +139,7 @@ footer {
 
 .inline {
     display:inline-block;
+    font-size: large;
 }
 
 #greeting {
@@ -161,4 +162,8 @@ img {
 .question {
     justify-content: center;
     display: flex;
+}
+
+.prov {
+    width:max-content;
 }
