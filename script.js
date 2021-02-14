@@ -1,12 +1,24 @@
-var nameinput = document.getElementById("nameinput").value;
-var honey = 5;
+storage = window.sessionStorage;
+
+function starthoney() {
+    var honey = 5;
+    sessionStorage.setItem("honey", honey);
+}
+
+function savename() {
+    var nameinput = document.getElementById("nameinput").value;
+    sessionStorage.setItem("name", nameinput);
+}
 
 function displayhoney() {
+    var honey = sessionStorage.getItem("honey");
     document.getElementById("honey").innerHTML = honey;
 }
 
 function losehoney() {
-    honey = honey - 1;
+    var honey = sessionStorage.getItem("honey");
+    honey--;
+    sessionStorage.setItem("honey", honey);
     if (honey == 0) {
         window.location.href = "fail.html";
     }
@@ -16,6 +28,12 @@ function losehoney() {
     }
 }
 
+function resethoney() {
+    var honey = 0;
+    sessionStorage.setItem("honey", honey);
+}
+
 function displayname() {
+    var nameinput = sessionStorage.getItem("name");
     document.getElementById("name").innerHTML = nameinput;
 }
