@@ -6,3 +6,5 @@ This game is designed to keep our country at its core as you take a roadtrip acr
 
 While designing “Cruising Across Canada,” we wanted to showcase fun facts that Canadians might not know about their surrounding neighbours. 
 We wanted the game to be visually appealing and inviting. This is why we focused on large, easily accessible buttons, eye-grabbing text and graphics.
+
+This placed 3rd in the University of Calgary hackathon!
